@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, inicial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Meu site pessoal</title>
+	<link rel="stylesheet" href="../_css/estilo.css">
+	<script src="../_javascript/animatescroll.js-master/jquery-1.8.3.min.js"></script>
+    <script src="../_javascript/animatescroll.js-master/animatescroll.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+</head>
+<body>
+<section id="main">
+<header class="main-header">
+<img src="../_imagens/technology-1283624_1920.jpg" no-repeat>
+
+</header>
+
+<nav class="main-nav">
+<ul>
+	<li><a onclick="$('.main-header').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:61});">Home</a></li>
+	<li><a onclick="$('.main-content').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:61});">Sobre</a></li>	
+	<li><a onclick="$('.main-portifolio').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:61});">Portfólio</a></li>	
+	<li><a onclick="$('.main-contato').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:61});">Contato</a></li>
+	<li><a onclick="$('.main-footer').animatescroll({scrollSpeed:2000,easing:'easeInOutBack',padding:61});">Redes Sociais</a></li>
+</ul>
+</nav>
+
+<article class="main-content">
+	<div class="circle">
+		<img src="../_imagens/gerilan.jpg">
+	</div>	
+	<div id="texto">
+		<h1>Gerilan Mendes</h1><br><br><br>
+
+		<p>É um iniciante na parte de desenvolvimento web, iniciou suas tecnologias com o uso do HTML5 e do CSS3, gosta muitos de jogos com um enredo contagiante e ama sair aos finais de semana para comer.</p>
+
+		<p>Planeja tornar-se um dev Fullstack dominando bem tecnologias como o Php, Mysql, Javascript, Html5 e Css3 inicialmente.</p><br><br>
+
+		<h3>Contato (68) 99989-7028<br><br>
+
+		Rio Branco - AC</h3>
+
+	</div>
+</article>
+
+<div class="main-portifolio">
+	<h1>Portifólio</h1>
+
+	<p>Alguns sites maneiros para visitar...</p>
+
+<ul id="portifolio">
+	<a href="http://www.google.com" target="blank"><li id="port1"><span>Projeto Glass</span></li></a>
+	<a href="http://www.google.com" target="blank"><li id="port2"><span>Projeto Google</span></li></a>
+	<a href="http://www.sony.com" target="blank"><li id="port3"><span>Projeto Sony</span></li></a>
+	<a href="https://www.lipsum.com/" target="blank"><li id="port4"><span>Projeto LoremIpsum</span></li></a>
+	<a href="https://www.w3schools.com/" target="blank"><li id="port5"><span>Projeto w3cSchool</span></li></a>
+	<a href="http://www.google.com" target="blank"><li id="port6"><span>Projeto Guitarra Humana</span></li></a>
+</ul>
+
+</div>
+<section class="main-contato">
+	<div id="formulario">
+	<h2>Deixe aqui sua mensagem</h2>
+	<form>
+		<div>
+			<input type="text" name="" required="">
+			<label>Nome</label>
+		</div>
+		<div>
+			<input type="email" name="" required="">
+			<label>e-mail</label>
+		</div>
+		<div>
+			<input type="text" name="" required="">
+			<label>Assunto</label>
+		</div>
+		<div>
+			<textarea required=""></textarea>
+			<label>Mensagem</label>
+		</div>
+		<input type="submit" name="" value="Enviar">
+	</form>
+</div>
+	<div id="contato">
+		<h1>Contato</h1>
+		<p id="cidade">Rio Branco - AC</p>
+		<p id="telefone">(68) 99989-7028</p>
+		<p id="email">gerilangm@hotmail.com</p>
+	</div>
+</section>
+<footer class="main-footer">
+	<ul>
+		<li>
+			<a href="https://www.facebook.com/gerilan.mendes" target="blank">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<i class="fab fa-facebook"></i>
+		</a>
+		</li>
+		<li>
+			<a href="https://www.linkedin.com/in/gerilan-mendes-4812a517a/" target="blank">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<i class="fab fa-linkedin"></i>
+		</a>
+		</li>
+		<li>
+			<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<i class="fab fa-twitter"></i>
+		</a>
+		</li>
+		<li>
+			<a href="https://www.instagram.com/gerilanmendes/?hl=pt-br" target="blank">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<i class="fab fa-instagram"></i>
+		</a>
+		</li>
+		<li>
+			<a href="https://github.com/gerilan" target="blank">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<i class="fab fa-github"></i>
+		</a>
+		</li>
+	</ul>
+</footer>
+</section>
+</body>
+</html>
